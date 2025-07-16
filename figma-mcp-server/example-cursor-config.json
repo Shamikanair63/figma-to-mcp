@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "figma-mcp-server": {
+      "command": "node",
+      "args": ["/absolute/path/to/figma-mcp-server/build/index.js"],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
